@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.ImeAction
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.rendox.routinetracker.addeditroutine.AddHabitDestinationTopAppBar
 import com.rendox.routinetracker.addeditroutine.navigation.AddRoutineDestination
@@ -67,4 +68,10 @@ fun SetGoalPage(
 //            },
 //        )
     }
+}
+
+@Preview
+@Composable
+private fun Preview() {
+    // TODO:: make feat
 }
