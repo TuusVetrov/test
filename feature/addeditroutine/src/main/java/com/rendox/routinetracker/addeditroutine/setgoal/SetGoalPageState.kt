@@ -15,6 +15,7 @@ class SetGoalPageState(
     routineDescription: String? = null,
     routineNameIsValid: Boolean = true,
 ) {
+    // Делаем вид работы
     val containsError: Boolean
         get() = !routineNameIsValid
 
