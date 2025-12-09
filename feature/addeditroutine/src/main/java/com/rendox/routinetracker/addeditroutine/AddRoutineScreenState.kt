@@ -39,6 +39,8 @@ class AddRoutineScreenState(
     var chooseRoutineTypePageState by mutableStateOf(chooseRoutineTypePageState)
         private set
 
+
+
     var setGoalPageState by mutableStateOf(setGoalPageState)
         private set
 
